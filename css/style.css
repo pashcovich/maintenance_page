@@ -1,3 +1,8 @@
+html, body {
+    width: 100%;
+    overflow: hidden;
+}
+
 body {
     font-weight: 400;
     font-size: 1.25rem;
@@ -8,16 +13,16 @@ body {
 }
 
 .container {
+  margin-top: 13%;
   background-color: #f7f7f7;
   text-align: center;
 }
-
 
 h1 {
   font-size: 6rem;
   color: #23272a;
   font-family: "Montserrat", "Helvetica-Neue", "Helvetica", "Arial", "san-serif";
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0;
   text-transform: none;
   padding: 0;
@@ -36,12 +41,12 @@ h1 {
 
 #social {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 45px;
 }
 
 #social a i {
   color: #23272a;
-  margin: 10px;
+  margin: 45px 10px 10px 15px;
   box-sizing: content-box;
 }
 
