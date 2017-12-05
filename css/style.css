@@ -12,8 +12,17 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+section {
+ border-radius: 0;
+ padding: 1em;
+ position: absolute;
+ top: 45%;
+ left: 50%;
+ margin-right: -50%;
+ transform: translate(-50%, -50%)
+}
+
 .container {
-  margin-top: 13%;
   background-color: #f7f7f7;
   text-align: center;
 }
@@ -26,7 +35,7 @@ h1 {
   letter-spacing: 0;
   text-transform: none;
   padding: 0;
-  margin: 11.875rem 0 1.5rem 0;
+  margin: 0 0 1.5rem 0;
   text-align: center;
 }
 
@@ -57,6 +66,6 @@ h1 {
 @media(max-width:767px){
   h1 {
      font-size: 4rem;
-     margin: 7rem 0 1.5rem 0;
+     margin: 0 0 1.5rem 0;
   }
 }
