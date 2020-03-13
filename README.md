@@ -1,6 +1,6 @@
 # MaintenancePage
 
-###Simple to install and use
+### Simple to install and use
 
 1. `cd /var/www`
 2. `git clone https://github.com/pashcovich/maintenance_page`
